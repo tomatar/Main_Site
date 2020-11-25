@@ -1,8 +1,38 @@
 
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4c98af;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
 
 .container {
     position: relative;
-    width: 15%;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -26,11 +56,11 @@
     overflow: hidden;
     opacity: 0;
     width: 200px;
-    height:100% ;
+    height:200px ;
     transition: .5s ease-in-out;
   }
   
-.container:hover .overlay {
+.overlay:hover {
     height: 100%;
     width: 200px;
     opacity: 1;
@@ -71,12 +101,22 @@
 
 .arrow{
   height: 100px;
-  border-bottom: 4px solid #fff;
-  border-left: 4px solid #fff;
+  border-bottom: 8px solid rgb(255, 255, 255);
+  border-left: 8px solid rgb(255, 255, 255);
   width: 100px;
-  transform: rotate(-45deg);
+  transform: translate(-50%, -50%);
   position: relative;
   left: 700px;
   bottom: -500px;
-
+  animation: arrow 2s infinite;
 }
+
+
+  @keyframes arrow {
+    0%, 100% {
+      transform: translateY(0px) rotate(-45deg);
+    }
+    50%{
+      transform: translateY(50px) rotate(-45deg);
+    }
+  }
