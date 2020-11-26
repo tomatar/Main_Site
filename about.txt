@@ -1,0 +1,18 @@
+ <p2 class = "para2">
+      I also am a prominent member of our school's quizzing club - Enigma. I frequently go for interschool competitions and conduct quizzes
+      and inductions for students of classes 6-8. Here at Enigma, we focus on knowledge-based quizzing over rote learning. I focus on the  
+      SPENT (Sports and Entertainment) field of quizzes and am learning MELA (Music Entertainment Literature and Arts) field as well.
+    </p2>
+    <p3 class = "para3">
+      Apart from club activites, I like to spend my free time in playing video games. My favourites being - CounterStrike: Global Offensive and
+      Krunker.io. I am a keen fan of football and play the sport quite frequently as well. 
+    </p3>
+    <p4 class= "para4">
+      ACHIEVEMENTS - 
+      1. Inter DPS Nationals Junior Quiz 2019 at DPS Mathura Road - 1st position 
+      2. Inter DPS Nationals Junior Literature Quiz 2019 at DPS Mathura Road - 1st position
+      2. Technolympics 2.0.20 'Word.Net' (Crossword) at Cambridge School, Noida - 1st position
+      3. nCrypt 2020 'Crossword' at DPS Sushant Lok - 3rd position
+      4. WarP 2020 'Proving Grounds' (Surprise) at DPS Mathura Road - 3rd position
+      5. Syntax 4.0 'Quiz' at DPS international, Saket - 1st position
+    </p4>

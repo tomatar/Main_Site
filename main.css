@@ -43,16 +43,15 @@
     width: 200px;
     height: 100%;
     margin-top: 440px;
-    margin-left: -640px;
   }
   
 .overlay {
     position: absolute;
     bottom: 0;
     top: 0;
-    left: -640px;
+    left: 0;
     right: 0;
-    background-color: rgb(91, 121, 151);
+    background-color: rgb(0, 13, 87);
     overflow: hidden;
     opacity: 0;
     width: 200px;
@@ -107,11 +106,10 @@
   align-self: center;
   transform: translate(-50%, -50%);
   position: relative;
-  left: 700px;
+  left: 690px;
   bottom: -30px;
   animation: arrow 2s infinite;
 }
-
 
   @keyframes arrow {
     0%, 100% {
@@ -121,3 +119,18 @@
       transform: translateY(50px) rotate(-45deg);
     }
   }
+
+.aboutme{
+  background-color: rgb(6, 6, 19);
+  position: relative;
+  width: 100%;
+  border: 15px solid rgb(6, 6, 19);
+  padding: 10px;
+}
+.para1{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  color: #0099ff;
+}
