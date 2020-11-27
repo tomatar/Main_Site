@@ -34,9 +34,27 @@
     position: relative;
     width: 200px;
     display: block;
+    margin-bottom: -400px;
     margin-left: auto;
     margin-right: auto;
   }
+
+.container2 {
+  position: relative;
+  width: 200px;
+  display: block;
+  margin-left: 400px;
+  margin-top: -650px;
+  margin-right: auto;
+}
+
+.container3 {
+  position: relative;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .image {
     display: block;
@@ -45,6 +63,21 @@
     margin-top: 440px;
   }
   
+.image2 {
+  display: block;
+  width: 200px;
+  height: 100%;
+  margin-top: 440px;
+}
+
+.image3 {
+  display: block;
+  width: 200px;
+  height: 100%;
+  margin-top: 440px;
+}
+
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -59,12 +92,52 @@
     transition: .5s ease-in-out;
   }
   
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 13, 87);
+  overflow: hidden;
+  opacity: 0;
+  width: 200px;
+  height:200px ;
+  transition: .5s ease-in-out;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 13, 87);
+  overflow: hidden;
+  opacity: 0;
+  width: 200px;
+  height:200px ;
+  transition: .5s ease-in-out;
+}
+
 .overlay:hover {
     height: 100%;
     width: 200px;
     opacity: 1;
   }
+
+.overlay2:hover {
+  height: 100%;
+  width: 200px;
+  opacity: 1;
+}
   
+.overlay3:hover {
+  height: 100%;
+  width: 200px;
+  opacity: 1;
+}
+
 .text {
     color: silver;
     font-size: 30px;
@@ -78,6 +151,34 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+.text2 {
+  color: silver;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text3 {
+  color: silver;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .two {
   font-size: 40px;
 }
@@ -130,7 +231,14 @@
 .para1{
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
+  font-style: normal;
+  color: #0099ff;
+}
+.para2{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
   font-style: normal;
   color: #0099ff;
 }
