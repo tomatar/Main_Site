@@ -48,6 +48,14 @@
   margin-right: auto;
 }
 
+.container3 {
+  position: relative;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container4 {
   position: relative;
   width: 200px;
